@@ -124,3 +124,72 @@ Si $N = (a, b, c) \rightarrow \Pi : ax + by + cz = d$
 **Ejemplo**: Si $N = (2, -1, 3), P = (1, 1, -1) \rightarrow$
 
 ​		$\Pi: (2, -1, 3)(x, y, z) = (2, -1, 3)(1, 1, -1) \iff 2x -y +3z = -2$
+
+## Teórica 3
+
+### Producto vectorial
+
+* Definido en $\R^3$
+
+$$
+a \times b = c \rightarrow\\
+c \perp a \land c\perp b
+$$
+
+![image-20220715131217882](/home/juli/.config/Typora/typora-user-images/image-20220715131217882.png)
+
+#### Propiedades:
+
+* $a \times b \perp a$
+
+  $a \times b \perp b$
+
+* $a \times a = 0$
+
+* $a \times b = - (b \times a)$
+
+* $t \in \R, (ta)\times b = t (a\times b) \lor a \times (tb)$
+
+* $a\times(b+c) = a\times b + a\times c$
+
+  $(a + b)\times c = a\times c + b \times c$
+
+* $a \cdot (b \times c) =(a \times b) \cdot c$
+
+* $a\times (b \times c) = (a\cdot x)b - (a\cdot b)c$
+
+#### Teorema
+
+$$
+|a \times b| = |a| |a| sen \theta
+$$
+
+donde $\theta$ es el ángulo entre a y b.
+
+##### Corolarios
+
+* $a\times b=0 \iff a \parallel b$
+* $|a\times b| =$ área del paralelogramo generado por a y b
+
+### Producto triple
+
+$$
+a, b, c \in \R^3
+\\
+a \cdot (b \times c) = (a\times b)\cdot c \\
+\begin{vmatrix}
+a_1 & a_2 & a_3\\
+b_1 & b_2 & b_3\\
+c_1 & c_2 & c_3
+\end{vmatrix}
+$$
+
+El producto triple es calcular el determinante de la matriz.
+
+Una interpretacion geómetrica sería hablar del volumen del paralelogramo con base $b\times c$, y de altura $a$.
+
+En conclusion, el valor absoluto del determinante es el volumen del paralelepípedo generado por las filas de la matriz.
+
+## Teórica 4
+
+### Curvas
