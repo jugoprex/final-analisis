@@ -1,5 +1,7 @@
 # Notas análisis
 
+## Práctica 1
+
 ### Vectores y Geometría del espacio
 
 #### Distancia entre dos puntos
@@ -29,8 +31,6 @@ $$
   $$
   u = \frac{a}{|a|}
   $$
-  
-* 
 
 ### Producto interno
 
@@ -71,7 +71,56 @@ donde $\theta$ es el ángulo más chico que forman los vectores.
 
 * a y b ortogonales $\iff$ $a\cdot b = 0$
 
-## Práctica 1
+## 
 
 ## ![image-20220706190321857](/home/juli/.config/Typora/typora-user-images/image-20220706190321857.png)
 
+## Práctica 2
+
+### Rectas y planos
+
+#### Rectas en forma paramétrica
+
+$$
+\{\lambda v + P / \lambda \in \R\} = \lambda \cdot v^{\rightarrow} + P
+$$
+
+Recta con direccion $v^{\rightarrow}$ que pasa por P.
+
+Ejemplo: $\lambda (2, 1) + (-1, 3)$
+
+* Dirección: (2, 1)
+* Pasa por P = (-1, 3)
+
+**OBS**: La escritura no es única $\rightarrow$ Podemos cambiar v por cualquier múltiplo no nulo de v.
+
+#### Planos
+
+##### Forma paramétrica
+
+$$
+\Pi : \lambda v^{\rightarrow} + \mu w^{\rightarrow} + P
+$$
+
+Plano que contiene las direcciones $v^{\rightarrow}$ y $w^{\rightarrow}$ y que pasa por P.
+
+##### Forma implícita 
+
+* Recta normal perpendicular a los dos vectores que dirigen el plano.
+* La podemos hallar haciendo $N = v^{\rightarrow} \times w^{\rightarrow} $
+
+>  **Nota**: Given $\vec{a} = \begin{pmatrix} a_1\\a_2\\a_3 \end{pmatrix}$ and
+> $\vec{b} = \begin{pmatrix} b_1\\b_2\\b_3 \end{pmatrix}$
+>
+> Then their cross product $\vec{a} \times \vec{b}$ is defined
+> $\vec{a} \times \vec{b} = (a_2b_3-a_3b_2)i + (a_3b_1-a_1b_3)j+(a_1b_2-a_2b_1)k$
+
+ Con N y P podemos hallar la ec implícita de $\Pi$
+$$
+\Pi : N \cdot (x, y, z) = N \cdot P
+$$
+Si $N = (a, b, c) \rightarrow \Pi : ax + by + cz = d$
+
+**Ejemplo**: Si $N = (2, -1, 3), P = (1, 1, -1) \rightarrow$
+
+​		$\Pi: (2, -1, 3)(x, y, z) = (2, -1, 3)(1, 1, -1) \iff 2x -y +3z = -2$
