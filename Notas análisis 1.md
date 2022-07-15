@@ -193,3 +193,28 @@ En conclusion, el valor absoluto del determinante es el volumen del paralelepíp
 ## Teórica 4
 
 ### Curvas
+
+![image-20220715150951149](/home/juli/.config/Typora/typora-user-images/image-20220715150951149.png)
+
+
+
+## Teórica 5
+
+### Coordenadas polares
+
+Dado un punto (x, y) puedo reescribirlo como $(r, \theta)$ donde r es la longitud desde el 0 y $\theta$ el ángulo desde el eje x.
+
+Puedo pasar de coordenadas cartesianas a polares haciendo:
+$$
+x = r\ cos\ \theta\\
+y = r\ sen\ \theta
+$$
+Y viceversa haciendo:
+$$
+r^2 = x^2 + y^2\\
+tan\ \theta = \frac{y}{x}
+$$
+Entonces todo punto polar se puede escribir como $(r;\theta+ 2k\pi)$ o $(-r;\theta +(2k+1)\pi)$
+
+### Curvas polares
+
