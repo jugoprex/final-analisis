@@ -71,7 +71,7 @@ donde $\theta$ es el ángulo más chico que forman los vectores.
 
 * a y b ortogonales $\iff$ $a\cdot b = 0$
 
-## ![image-20220706190321857](/home/juli/Desktop/facultad/final-analisis/imagenes/stewart.jpg)
+## ![image-20220706190321857](./imagenes/stewart.jpg)
 
 ## Práctica 2
 
@@ -134,7 +134,7 @@ a \times b = c \rightarrow\\
 c \perp a \land c\perp b
 $$
 
-![image-20220715131217882](/home/juli/Desktop/facultad/final-analisis/imagenes/image-20220715131217882.png)
+![image-20220715131217882](./imagenes/image-20220715131217882.png)
 
 #### Propiedades:
 
@@ -192,7 +192,7 @@ En conclusion, el valor absoluto del determinante es el volumen del paralelepíp
 
 ### Curvas
 
-![image-20220715150951149](/home/juli/Desktop/facultad/final-analisis/imagenes/image-20220715150951149.png)
+![image-20220715150951149](./imagenes/image-20220715150951149.png)
 
 
 
@@ -243,8 +243,8 @@ $$
 
 ### Superficies en R3
 
-![image-20220717161125208](/home/juli/Desktop/facultad/final-analisis/imagenes/image-20220717161125208.png)
+![image-20220717161125208](./imagenes/image-20220717161125208.png)
 
-![image-20220717161427251](/home/juli/Desktop/facultad/final-analisis/imagenes/image-20220717161427251.png)
+![image-20220717161427251](./imagenes/image-20220717161427251.png)
 
-![image-20220717162001602](/home/juli/Desktop/facultad/final-analisis/imagenes/image-20220717162001602.png)
+![image-20220717162001602](./imagenes/image-20220717162001602.png)
