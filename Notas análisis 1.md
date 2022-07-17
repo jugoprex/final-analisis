@@ -71,9 +71,7 @@ donde $\theta$ es el ángulo más chico que forman los vectores.
 
 * a y b ortogonales $\iff$ $a\cdot b = 0$
 
-## 
-
-## ![image-20220706190321857](/home/juli/.config/Typora/typora-user-images/image-20220706190321857.png)
+## ![image-20220706190321857](/home/juli/Desktop/facultad/final-analisis/imagenes/stewart.jpg)
 
 ## Práctica 2
 
@@ -136,7 +134,7 @@ a \times b = c \rightarrow\\
 c \perp a \land c\perp b
 $$
 
-![image-20220715131217882](/home/juli/.config/Typora/typora-user-images/image-20220715131217882.png)
+![image-20220715131217882](/home/juli/Desktop/facultad/final-analisis/imagenes/image-20220715131217882.png)
 
 #### Propiedades:
 
@@ -194,7 +192,7 @@ En conclusion, el valor absoluto del determinante es el volumen del paralelepíp
 
 ### Curvas
 
-![image-20220715150951149](/home/juli/.config/Typora/typora-user-images/image-20220715150951149.png)
+![image-20220715150951149](/home/juli/Desktop/facultad/final-analisis/imagenes/image-20220715150951149.png)
 
 
 
@@ -218,3 +216,35 @@ Entonces todo punto polar se puede escribir como $(r;\theta+ 2k\pi)$ o $(-r;\the
 
 ### Curvas polares
 
+Las curvas que se generan en ecuaciones que involucran a r y $\theta$.
+
+##### Ejemplo:
+
+* $r = 1 - cos(\theta)$
+
+###  Curvas implícitas en R2
+
+* Cónicas:
+  * Elipse: $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$
+  * Circunferencia: $x^2 + y^2 = r^2$
+  * Parábola: 
+    * $y = ax^2$
+    * $x = ay^2$
+  * Hipérbole:
+    * $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$ 
+    * $\frac{-x^2}{a^2} + \frac{y^2}{b^2} = 1$
+
+Las cónicas son algunas curvas en $\R^2$ definidas de forma implícita. 
+$$
+\mathscr{C} = \{(x, y)\in \R^2 / F(x, y) = k\}
+$$
+
+ ## Teórica 7
+
+### Superficies en R3
+
+![image-20220717161125208](/home/juli/Desktop/facultad/final-analisis/imagenes/image-20220717161125208.png)
+
+![image-20220717161427251](/home/juli/Desktop/facultad/final-analisis/imagenes/image-20220717161427251.png)
+
+![image-20220717162001602](/home/juli/Desktop/facultad/final-analisis/imagenes/image-20220717162001602.png)
