@@ -1,10 +1,8 @@
-# Notas análisis
+# Práctica 1
 
-## Práctica 1
+## Vectores y Geometría del espacio
 
-### Vectores y Geometría del espacio
-
-#### Distancia entre dos puntos
+### Distancia entre dos puntos
 
 * Teorema de Pitágoras:
 	$$
@@ -13,7 +11,7 @@
 
 + DEF *dist(P, Q):* $\sqrt((a_1-a_2)^2 + (b_1 - b_2)^2)$
 
-#### Círculos y Discos
+### Círculos y Discos
 
 * $P_0 = (a_0, b_0)$ ; $P = (x, y)$; $r > 0$
 
@@ -23,7 +21,7 @@ $$
 (x-a_0)^2 + (y-b_0)^2 = r^2
 $$
 
-#### Vectores
+### Vectores
 
 * Longitud: $\sqrt(a^2 + b^2 + c^2)$
 
@@ -49,7 +47,7 @@ $$
 * $a*(b+c) = a*b + a*c$
 * $(ta)*b = t(a*b)$
 
-#### Teorema del coseno
+### Teorema del coseno
 
 $$
 c^2 = a^2 + b^2 - 2 a b cos\theta
@@ -73,11 +71,11 @@ donde $\theta$ es el ángulo más chico que forman los vectores.
 
 ## ![image-20220706190321857](./imagenes/stewart.jpg)
 
-## Práctica 2
+# Práctica 2
 
-### Rectas y planos
+## Rectas y planos
 
-#### Rectas en forma paramétrica
+### Rectas en forma paramétrica
 
 $$
 \{\lambda v + P / \lambda \in \R\} = \lambda \cdot v^{\rightarrow} + P
@@ -92,9 +90,9 @@ Ejemplo: $\lambda (2, 1) + (-1, 3)$
 
 **OBS**: La escritura no es única $\rightarrow$ Podemos cambiar v por cualquier múltiplo no nulo de v.
 
-#### Planos
+### Planos
 
-##### Forma paramétrica
+#### Forma paramétrica
 
 $$
 \Pi : \lambda v^{\rightarrow} + \mu w^{\rightarrow} + P
@@ -102,7 +100,7 @@ $$
 
 Plano que contiene las direcciones $v^{\rightarrow}$ y $w^{\rightarrow}$ y que pasa por P.
 
-##### Forma implícita 
+#### Forma implícita 
 
 * Recta normal perpendicular a los dos vectores que dirigen el plano.
 * La podemos hallar haciendo $N = v^{\rightarrow} \times w^{\rightarrow} $
@@ -123,9 +121,9 @@ Si $N = (a, b, c) \rightarrow \Pi : ax + by + cz = d$
 
 ​		$\Pi: (2, -1, 3)(x, y, z) = (2, -1, 3)(1, 1, -1) \iff 2x -y +3z = -2$
 
-## Teórica 3
+# Teórica 3
 
-### Producto vectorial
+## Producto vectorial
 
 * Definido en $\R^3$
 
@@ -188,17 +186,17 @@ Una interpretacion geómetrica sería hablar del volumen del paralelogramo con b
 
 En conclusion, el valor absoluto del determinante es el volumen del paralelepípedo generado por las filas de la matriz.
 
-## Teórica 4
+# Teórica 4
 
-### Curvas
+## Curvas
 
 ![image-20220715150951149](./imagenes/image-20220715150951149.png)
 
 
 
-## Teórica 5
+# Teórica 5
 
-### Coordenadas polares
+## Coordenadas polares
 
 Dado un punto (x, y) puedo reescribirlo como $(r, \theta)$ donde r es la longitud desde el 0 y $\theta$ el ángulo desde el eje x.
 
@@ -222,7 +220,7 @@ Las curvas que se generan en ecuaciones que involucran a r y $\theta$.
 
 * $r = 1 - cos(\theta)$
 
-###  Curvas implícitas en R2
+##  Curvas implícitas en R2
 
 * Cónicas:
   * Elipse: $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$
@@ -239,12 +237,79 @@ $$
 \mathscr{C} = \{(x, y)\in \R^2 / F(x, y) = k\}
 $$
 
- ## Teórica 7
+ # Teórica 7
 
-### Superficies en R3
+## Superficies en R3
 
 ![image-20220717161125208](./imagenes/image-20220717161125208.png)
 
 ![image-20220717161427251](./imagenes/image-20220717161427251.png)
 
 ![image-20220717162001602](./imagenes/image-20220717162001602.png)
+
+# Teórica 8
+
+## Límite y continuidad
+
+### Funciones vectoriales
+
+**DEF:** Una función vectorial es aquella cuyo argumento es un número real y su resultado un vector.
+$$
+r: I \subset \R \rightarrow \R^2 \lor \R^3\\
+r(t) = <f(t), g(t), h(t)>
+$$
+Ejemplo: $r(t) = <cos\ t, sen\ t, t>$
+
+Toda función vectorial es la parametrización de una curva.
+
+#### Límite (para funciones vectoriales)
+
+$$
+r(t) = f(t) \hat{i} + g(t)\hat{j}+ h(t)\hat{k} 
+$$
+
+Se define:
+$$
+\displaystyle\lim_{t \to a} r(t) = <\displaystyle\lim_{t \to a}f(t), \displaystyle\lim_{t \to a} g(t), \displaystyle\lim_{t \to a} h(t)>
+$$
+
+#### Continuidad (para funciones vectoriales)
+
+**DEF:** r(t) es continua en t=a si $\displaystyle\lim_{t \to a}r(t) = r(a)$
+
+*OBS:* Es equivalente a que cada componente sea continua en t=a.
+
+### Funciones de varias variables
+
+**DEF:** Una función cuyo argumento es un punto de $\R^2$ o $\R^3$ y su resultado un número real.
+$$
+f: D \subset \R ^2 \lor \R ^3 \rightarrow \R\\
+f = f(x, y) \lor f(x,y,z)
+$$
+Ejemplo: $f(x, y) = x^2 + 2y^2$
+
+#### Límite (para funciones de varias variables)
+
+Dado $\epsilon > 0$, existe $\delta>0$ tal que
+$$
+|f(x,y)- L| <\epsilon \ si\ 0 < \sqrt{(x-a)^2 + (y-b)^2}<\delta
+$$
+ 
+
+##### Lema de los límites iterados
+
+![image-20220718124221978](./imagenes/image-20220718124047506.png)
+
+Ejemplo:
+
+![image-20220718125233573](./imagenes/image-20220718125233573.png)
+
+![image-20220718125145421](./imagenes/image-20220718125145421.png)
+
+##### Lema 2 (Aproximación por curvas)
+
+Supongamos que $\displaystyle\lim_{(x,y) \to (a,b)} f(x,y) = L$;
+
+Entonces para toda función vectorial r(t) tal que $\displaystyle\lim_{t \to t_0} r(t) = (a,b)$ se verifica que $\displaystyle\lim_{t \to t_0} f(r(t)) = L$
+
+ 
