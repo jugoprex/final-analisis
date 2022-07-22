@@ -5,11 +5,13 @@
 ### Distancia entre dos puntos
 
 * Teorema de Pitágoras:
+	
+	
 	$$
 	d^2 = (a_2 - a_1)^2 + (b_2 - b_1)^2
 	$$
 
-+ DEF *dist(P, Q):* $\sqrt((a_1-a_2)^2 + (b_1 - b_2)^2)$
++ DEF *dist(P, Q):* $\sqrt{(a_1-a_2)^2 + (b_1 - b_2)^2}$
 
 ### Círculos y Discos
 
@@ -23,7 +25,7 @@ $$
 
 ### Vectores
 
-* Longitud: $\sqrt(a^2 + b^2 + c^2)$
+* Longitud: $\sqrt{a^2 + b^2 + c^2}$
 
   Si a es un vector no nulo, busco un vector de igual longitud y sentido de longitud 1. 
   $$
@@ -33,10 +35,10 @@ $$
 ### Producto interno
 
 $$
-a, b \in \R^2\ \lor \R^3 \\
-a \cdot b\\
-a = <x_1, y_1, x_1>\\
-b = <x_2, y_2, z_3>\\
+a, b \in \R^2 \lor \R^3 \newline
+a \cdot b\newline
+a = <x_1, y_1, x_1>\newline
+b = <x_2, y_2, z_3>\newline
 a \cdot b = x_1*x_2 + y_1*y_2+z_1+z_2
 $$
 
@@ -294,7 +296,7 @@ Dado $\epsilon > 0$, existe $\delta>0$ tal que
 $$
 |f(x,y)- L| <\epsilon \ si\ 0 < \sqrt{(x-a)^2 + (y-b)^2}<\delta
 $$
- 
+
 
 ##### Lema de los límites iterados
 
@@ -310,6 +312,35 @@ Ejemplo:
 
 Supongamos que $\displaystyle\lim_{(x,y) \to (a,b)} f(x,y) = L$;
 
-Entonces para toda función vectorial r(t) tal que $\displaystyle\lim_{t \to t_0} r(t) = (a,b)$ se verifica que $\displaystyle\lim_{t \to t_0} f(r(t)) = L$
+Entonces para toda función vectorial r(t) tal que $\displaystyle\lim_{t \to t_0} r(t) = (a,b)$ se verifica que $ f(r(t)) = L$ 
 
- 
+##### Lemas varios útiles de límites
+
+$$
+\displaystyle\lim_{t \to 0} \frac{sen(t)}{t} = 1
+$$
+
+$$
+\displaystyle\lim_{t \to 0} \frac{e^t -1}{t} = 1
+$$
+
+
+$$
+\displaystyle\lim_{t \to 0} \frac{ln(1+t)}{t} = 1
+$$
+
+$$
+\displaystyle\lim_{t \to 0} \frac{cos(t) -1}{t^2} = -1/2
+$$
+
+
+
+ # Teórica 9
+
+## Continuidad
+
+**DEF:** Sea $f:D \subset \R^2 \to \R$ y $(a,b) \in D$. Decimos que f es continua en (a, b) si:
+$$
+\displaystyle\lim_{(x,y) \to (a,b)} f(x,y) = f(a,b)
+$$
+Decimos que f es continua en D si es continua en todos los puntos de su dominio D.
